@@ -1,7 +1,7 @@
 from pyscript import Element
 
 # Club members list
-members = ["Josua Ortiz", "Maria Santos", "John Cruz", "Anna Reyes"]
+members = ["Ethan", "Juan Gomez", "John Cruz", "Victor Gonzales"]
 
 def check_member(event=None):
     fname = document.getElementById("fname").value.strip()
