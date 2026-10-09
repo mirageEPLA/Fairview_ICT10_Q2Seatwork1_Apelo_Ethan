@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Club Checker</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000);
+            color: rgb(184, 44, 44);
+            text-align: center;
+            padding: 40px;
+        }
+        .box {
+            background-color: #a00606;
+            color: #ffc400;
+            width: 400px;
+            margin: auto;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 0 15px rgba(255, 251, 2, 0.5);
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #ffaa00;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: none;
+        }
+        button {
+            background-color: #bc2727;
+            color: rgb(20, 5, 5);
+            border: none;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #eff0f2;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>ICT CLUB CHECKER</h2>
+        <input type="text" id="fname" placeholder="Ethan">
+        <input type="text" id="lname" placeholder="Apelo"><br>
+        <button py-click="check_member">ENTER</button>
+        <div id="result">Enter your name to verify.</div>
+    </div>
+
+ </body>
+</html>
